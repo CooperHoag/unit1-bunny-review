@@ -7,8 +7,8 @@ body {
 nav {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
-  background-color: blue;
+  gap: 20px;
+  background-color: dodgerblue;
   color: white;
   height: 6vh;
   font-size: 5vh;
@@ -16,6 +16,13 @@ nav {
 
 a {
   margin-right: 10px;
+  text-decoration: none;
+}
+
+img {
+  height: 250px;
+  width: 300px;
+  border-radius: 25%;
 }
 
 main {
@@ -26,13 +33,14 @@ main {
   height: 100vh;
 }
 
-img {
-  height: 250px;
-  width: 300px;
-  border-radius: 25%
-}
-
 p {
   border: 3px solid black;
   padding: 50px;
+}
+
+section {
+  display: grid;
+
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 250px 250px;
 }
